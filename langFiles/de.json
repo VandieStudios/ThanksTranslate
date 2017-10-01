@@ -9,6 +9,6 @@
     "thank":{
         "thankedBy":"{{thanked}} wurde von {{thankee}} gedankt",
         "thank": "Danke",
-        "posted": "{{time ago}} gesendet"
+        "posted": "{{timeAgo}} gesendet"
     }
 }
