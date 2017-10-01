@@ -11,14 +11,13 @@
         "thank": "Danke",
         "posted": "{{timeAgo}} gesendet"
     },
-    //ToDo: Translate login section
     "login":{
-        "error":"Error",
-        "passError":"Invalid Password",
-        "userError":"Account does not exist",
-        "tokenError":"Login Token Expired, Please try again",
-        "login":"Login",
+        "error":"Fehler",
+        "passError":"Falsches Passwort",
+        "userError":"Account existiert nicht",
+        "tokenError":"Session abgelaufen, bitte versuchen Sie es erneut",
+        "login":"Einloggen",
         "email":"Email",
-        "password":"Password"
+        "password":"Passwort"
     }
 }
