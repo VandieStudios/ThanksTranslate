@@ -10,5 +10,15 @@
         "thankedBy":"{{thanked}} wurde von {{thankee}} gedankt",
         "thank": "Danke",
         "posted": "{{timeAgo}} gesendet"
+    },
+    //ToDo: Translate login section
+    "login":{
+        "error":"Error",
+        "passError":"Invalid Password",
+        "userError":"Account does not exist",
+        "tokenError":"Login Token Expired, Please try again",
+        "login":"Login",
+        "username":"Username",
+        "password":"Password"
     }
 }
