@@ -1,0 +1,15 @@
+{
+    "language":"English",
+    "post":{
+        "someone":"Thank someone",
+        "why":"Why do you want to thank {{name}}?",
+        "postThank":"Thank",
+        "cancel":"Cancel"
+    },
+    "thank":{
+        "thankedBy":"was thanked by",
+        "thank": "thank",
+        "posted": "Posted"
+    }
+
+}

@@ -1,0 +1,16 @@
+{
+  "name": "thanks-translate",
+  "version": "0.1.1",
+  "description": "The module that handles translation for thanks",
+  "main": "lang.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "thanks",
+    "gothankme",
+    "translate"
+  ],
+  "author": "Vandie Studios Ltd.",
+  "license": "MIT"
+}
