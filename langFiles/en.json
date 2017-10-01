@@ -17,7 +17,7 @@
         "userError":"Account does not exist",
         "tokenError":"Login Token Expired, Please try again",
         "login":"Login",
-        "username":"Username",
+        "email":"Email",
         "password":"Password"
     }
 
