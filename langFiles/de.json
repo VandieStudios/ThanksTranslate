@@ -1,0 +1,14 @@
+{
+    "language":"Deutsch",
+    "post":{
+        "someone":"Danke jemandem",
+        "why":"Warum möchtest du {{name}} danken?",
+        "postThank":"Bedanken",
+        "cancel":"Abbrechen"
+    },
+    "thank":{
+        "thankedBy":"{{thanked}} wurde von {{thankee}} gedankt",
+        "thank": "Danke",
+        "posted": "{{timeAgo}} gesendet"
+    }
+}
