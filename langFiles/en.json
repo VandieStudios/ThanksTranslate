@@ -7,9 +7,9 @@
         "cancel":"Cancel"
     },
     "thank":{
-        "thankedBy":"was thanked by",
+        "thankedBy":"{{thanked}} was thanked by {{thankee}}",
         "thank": "thank",
-        "posted": "Posted"
+        "posted": "Posted {{timeAgo}}"
     }
 
 }
