@@ -10,6 +10,15 @@
         "thankedBy":"{{thanked}} was thanked by {{thankee}}",
         "thank": "thank",
         "posted": "Posted {{timeAgo}}"
+    },
+    "login":{
+        "error":"Error",
+        "passError":"Invalid Password",
+        "userError":"Account does not exist",
+        "tokenError":"Login Token Expired, Please try again",
+        "login":"Login",
+        "email":"Email",
+        "password":"Password"
     }
 
 }
