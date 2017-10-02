@@ -19,6 +19,14 @@
         "login":"Login",
         "email":"Email",
         "password":"Password"
+    },
+    "settings":{
+        "title":"Settings & Privacy",
+        "curlang": "Current Language",
+        "browserSet": "Set by browser",
+        "userSettings": "User Settings",
+        "privacy":"Privacy",
+        "profilePrivacy": "Limit viewing of my profile to users within my own organisation."
     }
 
 }
