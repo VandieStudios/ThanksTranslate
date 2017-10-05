@@ -21,11 +21,11 @@
         "password":"Passwort"
     },
     "settings":{
-        "title":"Settings & Privacy",
-        "curlang": "Current Language",
-        "browserSet": "Set by browser",
-        "userSettings": "User Settings",
-        "privacy":"Privacy",
-        "profilePrivacy": "Limit viewing of my profile to users within my own organisation."
+        "title":"Einstellungen & Datenschutz",
+        "curlang": "Aktuelle Sprache",
+        "browserSet": "Durch Browser gesetzt",
+        "userSettings": "Nutzereinstellungen",
+        "privacy":"Datenschutz",
+        "profilePrivacy": "Ansehen meines Profils nur Nutzern meiner Organisation erlauben."
     }
 }
