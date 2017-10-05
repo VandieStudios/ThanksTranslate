@@ -1,0 +1,32 @@
+{
+    "language":"Spanish",
+    "post":{
+        "someone":"Agradecer a alguien",
+        "why":"¿Por qué quieres dar las gracias a {{name}}?",
+        "postThank":"Agradecer",
+        "cancel":"Cancelar"
+    },
+    "thank":{
+        "thankedBy":"{{thanked}} fue agradecido por {{thankee}}",
+        "thank": "agradecer",
+        "posted": "Publicado en {{timeAgo}}"
+    },
+    "login":{
+        "error":"Error",
+        "passError":"Contraseña no válida",
+        "userError":"La cuenta no existe",
+        "tokenError":"El token de inicio de sesión ha expirado. Por favor inténtelo de nuevo",
+        "login":"Login",
+        "email":"Email",
+        "password":"Contraseña"
+    },
+    "settings":{
+        "title":"Configuración y privacidad",
+        "curlang": "Idioma actual",
+        "browserSet": "Establecer por navegador",
+        "userSettings": "Configuración del usuario",
+        "privacy":"Privacidad",
+        "profilePrivacy": "Limitar la visualización de mi perfil a los usuarios dentro de mi propia organización."
+    }
+
+}
