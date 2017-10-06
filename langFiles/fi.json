@@ -1,0 +1,32 @@
+{
+    "language":"suomi",
+    "post":{
+        "someone":"Kiitä jotakuta",
+        "why":"Miksi haluat kiittää henkilöä {{name}}?",
+        "postThank":"Kiitä",
+        "cancel":"Peruuta"
+    },
+    "thank":{
+        "thankedBy":"{{thankee}} kiitti henkilöä {{thanked}}",
+        "thank": "kiitä",
+        "posted": "Lähetetty {{timeAgo}}"
+    },
+    "login":{
+        "error":"Virhe",
+        "passError":"Väärä salasana",
+        "userError":"Tiliä ei ole olemassa",
+        "tokenError":"Kirjautumislomake vanhentunut, yritä uudelleen",
+        "login":"Kirjaudu",
+        "email":"Sähköposti",
+        "password":"Salasana"
+    },
+    "settings":{
+        "title":"Asetukset & Yksityisyys",
+        "curlang": "Nykyinen kieli",
+        "browserSet": "Selaimen määrittämä",
+        "userSettings": "Käyttäjän Asetukset",
+        "privacy":"Yksityisyys",
+        "profilePrivacy": "Anna vain organisaationi sisäisille käyttäjlle oikeus tarkastella profiiliani."
+    }
+
+}
