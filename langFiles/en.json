@@ -1,31 +1,52 @@
 {
+    /* The name of the language inside itself eg. English is called "english" in english */
     "language":"English",
     "post":{
+        /* Used as a title on the new thank screen */
         "someone":"Thank someone",
+        /* Used as a label for the thank reason feild */
         "why":"Why do you want to thank {{name}}?",
+        /* Used as the button to send a thank */
         "postThank":"Thank",
+        /* Used to cancel a thank */
         "cancel":"Cancel"
     },
     "thank":{
+        /* Displayed on each thank to indicate who as thanked who. */
         "thankedBy":"{{thanked}} was thanked by {{thankee}}",
+        /* The name by which to refer to a single thank you message */
         "thank": "thank",
+        /* When the message was posted. timeAgo is given (pre translated) by momentJS */
         "posted": "Posted {{timeAgo}}"
     },
     "login":{
+        /* How to refer to an error*/
         "error":"Error",
+        /* The error to display when the given password is incorrect */
         "passError":"Invalid Password",
+        /* The error to display when the given account does not exist */
         "userError":"Account does not exist",
+        /* The error to display when a login token has expired */
         "tokenError":"Login Token Expired, Please try again",
+        /* What to display on the login button */
         "login":"Login",
+        /* The label for the email feild on login screens */
         "email":"Email",
+        /* The label for the password feild on login screens */
         "password":"Password"
     },
     "settings":{
+        /* The title of the Settings & Privacy Menu */
         "title":"Settings & Privacy",
+        /* The label to display on the language select input */
         "curlang": "Current Language",
+        /* Used when a setting was set by the browser. eg. "Language: English (Set by browser)" */
         "browserSet": "Set by browser",
+        /* The label to use for user specific settings */
         "userSettings": "User Settings",
+        /* The label to use for privacy specific settings */
         "privacy":"Privacy",
+        /* The label to use on the toggle which stops users outside your own organisation seeing your profile */
         "profilePrivacy": "Limit viewing of my profile to users within my own organisation."
     }
 
