@@ -26,7 +26,8 @@
         "browserSet": "Establecer por navegador",
         "userSettings": "Configuración del usuario",
         "privacy":"Privacidad",
-        "profilePrivacy": "Limitar la visualización de mi perfil a los usuarios dentro de mi propia organización."
+        "profilePrivacy": "Limitar la visualización de mi perfil a los usuarios dentro de mi propia organización.",
+        "saveChanges" : "Save Changes"
     }
 
 }

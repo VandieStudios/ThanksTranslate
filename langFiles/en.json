@@ -47,7 +47,9 @@
         /* The label to use for privacy specific settings */
         "privacy":"Privacy",
         /* The label to use on the toggle which stops users outside your own organisation seeing your profile */
-        "profilePrivacy": "Limit viewing of my profile to users within my own organisation."
+        "profilePrivacy": "Limit viewing of my profile to users within my own organisation.",
+        /* Used on buttons that save changes */
+        "saveChanges" : "Save Changes"
     }
 
 }

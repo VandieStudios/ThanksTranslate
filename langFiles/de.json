@@ -26,6 +26,7 @@
         "browserSet": "Durch Browser gesetzt",
         "userSettings": "Nutzereinstellungen",
         "privacy":"Datenschutz",
-        "profilePrivacy": "Ansehen meines Profils nur Nutzern meiner Organisation erlauben."
+        "profilePrivacy": "Ansehen meines Profils nur Nutzern meiner Organisation erlauben.",
+        "saveChanges" : "Save Changes"
     }
 }

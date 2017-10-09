@@ -26,7 +26,8 @@
         "browserSet": "Selaimen määrittämä",
         "userSettings": "Käyttäjän Asetukset",
         "privacy":"Yksityisyys",
-        "profilePrivacy": "Anna vain organisaationi sisäisille käyttäjlle oikeus tarkastella profiiliani."
+        "profilePrivacy": "Anna vain organisaationi sisäisille käyttäjlle oikeus tarkastella profiiliani.",
+        "saveChanges" : "Save Changes"
     }
 
 }
