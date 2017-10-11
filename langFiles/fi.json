@@ -28,6 +28,11 @@
         "privacy":"Yksityisyys",
         "profilePrivacy": "Anna vain organisaationi sisäisille käyttäjlle oikeus tarkastella profiiliani.",
         "saveChanges" : "Save Changes"
+    },
+    "error":{
+        "report":"Report an issue",
+        "send":"Post report",
+        "info":"Explain the issue"
     }
 
 }

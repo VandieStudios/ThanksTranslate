@@ -50,6 +50,14 @@
         "profilePrivacy": "Limit viewing of my profile to users within my own organisation.",
         /* Used on buttons that save changes */
         "saveChanges" : "Save Changes"
+    },
+    "error":{
+        /* Used at the top of the "report an issue" screen */
+        "report":"Report an issue",
+        /* Used to send an issue report */
+        "send":"Post report",
+        /* Used as a label on the issue description input */
+        "info":"Explain the issue"
     }
 
 }

@@ -28,5 +28,10 @@
         "privacy":"Datenschutz",
         "profilePrivacy": "Ansehen meines Profils nur Nutzern meiner Organisation erlauben.",
         "saveChanges" : "Save Changes"
+    },
+    "error":{
+        "report":"Report an issue",
+        "send":"Post report",
+        "info":"Explain the issue"
     }
 }

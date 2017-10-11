@@ -28,6 +28,11 @@
         "privacy":"Privacidad",
         "profilePrivacy": "Limitar la visualización de mi perfil a los usuarios dentro de mi propia organización.",
         "saveChanges" : "Save Changes"
+    },
+    "error":{
+        "report":"Report an issue",
+        "send":"Post report",
+        "info":"Explain the issue"
     }
 
 }
