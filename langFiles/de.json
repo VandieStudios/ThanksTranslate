@@ -27,11 +27,11 @@
         "userSettings": "Nutzereinstellungen",
         "privacy":"Datenschutz",
         "profilePrivacy": "Ansehen meines Profils nur Nutzern meiner Organisation erlauben.",
-        "saveChanges" : "Save Changes"
+        "saveChanges" : "Änderungen Speichern"
     },
     "error":{
-        "report":"Report an issue",
-        "send":"Post report",
-        "info":"Explain the issue"
+        "report":"Ein Problem melden",
+        "send":"Problemmeldung senden",
+        "info":"Problembeschreibung"
     }
 }
