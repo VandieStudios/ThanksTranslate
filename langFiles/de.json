@@ -17,7 +17,7 @@
             "pass":"Falsches Passwort",
             "user":"Account existiert nicht",
             "token":"Session abgelaufen, bitte versuchen Sie es erneut",
-            "verification": "Bitte verifizieren Sie Ihren Account bevor Sie versuchen, sich einzuloggen"
+            "verification": "Bitte verifizieren Sie Ihren Account, bevor Sie versuchen sich einzuloggen"
         },
         "login":"Einloggen",
         "email":"Email",
