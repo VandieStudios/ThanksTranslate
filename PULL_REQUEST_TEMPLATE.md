@@ -1,6 +1,6 @@
 Thanks for creating a pull request for the thanks translation system. In order to speed up our understanding of your changes, please do the following:
 
-- Answer each question below, by replacing the text in brackets, so we now exactly what you've changed and why.
+- Answer each question below, by replacing the text in brackets, so we know exactly what you've changed and why.
 - Remember to keep any responses clear and consise
 - Remove the top 6 lines of this file so the rules of pull are no longer showing.
 
