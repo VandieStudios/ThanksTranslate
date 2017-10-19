@@ -1,6 +1,8 @@
 {
     /* The name of the language inside itself eg. English is called "english" in english */
     "language":"English",
+    /* How to refer to an error*/
+    "error":"Error",
     "post":{
         /* Used as a title on the new thank screen */
         "someone":"Thank someone",
@@ -20,20 +22,58 @@
         "posted": "Posted {{timeAgo}}"
     },
     "login":{
-        /* How to refer to an error*/
-        "error":"Error",
-        /* The error to display when the given password is incorrect */
-        "passError":"Invalid Password",
-        /* The error to display when the given account does not exist */
-        "userError":"Account does not exist",
-        /* The error to display when a login token has expired */
-        "tokenError":"Login Token Expired, Please try again",
+        "errors":{
+            /* The error to display when the given password is incorrect */
+            "pass":"Invalid Password",
+            /* The error to display when the given account does not exist */
+            "user":"Account does not exist",
+            /* The error to display when a login token has expired */
+            "token":"Login Token Expired, Please try again",
+            /* The error to display if a user has yet to verify their account */
+            "verification": "Please verify your account before attempting to log in"
+        },
         /* What to display on the login button */
         "login":"Login",
         /* The label for the email feild on login screens */
         "email":"Email",
         /* The label for the password feild on login screens */
         "password":"Password"
+    },
+    "signUp":{
+        "notifications":{
+            /* notification to display upon successful company sign up */
+            "companySignedUp":"Your company has been registered. Please verify your email before logging in.",
+            /* notification to display upon successful user sign up */
+            "userSignedUp":"You have been registered. Please verify your email before logging in."
+        },
+        "errors":{
+            /* error to display when a domain is used by another org */
+            "domains":"One of your domains is already in use. If this is a mistake, please contact support",
+            /* error to display when a physical address could not be verified */
+            "address":"The address you gave cannot be verified",
+            /* error to display when a user's emain is already used */
+            "alreadyRegistered":"This email is already in use."
+        },
+        "org":{
+            /* title of the company info input section */
+            "info": "Company Info",
+            /* label for company nam input */
+            "name": "Legal Company Name",
+            /* label for company address input */
+            "address": "Address",
+            /* label for company domains input */
+            "domains": "Company domains (Comma separated)"
+        },
+        "user":{
+            /* Title for the user info input section */
+            "info": "Your Info",
+            /* label for the user name feild */
+            "name": "Full Name"
+        },
+        /* go to next step button */
+        "next": "Next",
+        /* back a step button */
+        "back": "Back"
     },
     "settings":{
         /* The title of the Settings & Privacy Menu */

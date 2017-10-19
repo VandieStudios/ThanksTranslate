@@ -1,5 +1,6 @@
 {
     "language":"Spanish",
+    "error":"Error",
     "post":{
         "someone":"Agradecer a alguien",
         "why":"¿Por qué quieres dar las gracias a {{name}}?",
@@ -12,13 +13,38 @@
         "posted": "Publicado en {{timeAgo}}"
     },
     "login":{
-        "error":"Error",
-        "passError":"Contraseña no válida",
-        "userError":"La cuenta no existe",
-        "tokenError":"El token de inicio de sesión ha expirado. Por favor inténtelo de nuevo",
+        "errors":{
+            "pass":"Contraseña no válida",
+            "user":"La cuenta no existe",
+            "token":"El token de inicio de sesión ha expirado. Por favor inténtelo de nuevo",
+            "verification": "Please verify your account before attempting to log in"
+        },
         "login":"Login",
         "email":"Email",
         "password":"Contraseña"
+    },
+    "signUp":{
+        "notifications":{
+            "companySignedUp":"Your company has been registered. Please verify your email before logging in.",
+            "userSignedUp":"You have been registered. Please verify your email before logging in."
+        },
+        "errors":{
+            "domains":"One of your domains is already in use. If this is a mistake, please contact support",
+            "address":"The address you gave cannot be verified",
+            "alreadyRegistered":"This email is already in use."
+        },
+        "org":{
+            "info": "Company Info",
+            "name": "Legal Company Name",
+            "address": "Address",
+            "domains": "Company domains (Comma separated)"
+        },
+        "user":{
+            "info": "Your Info",
+            "name": "Full Name"
+        },
+        "next": "Next",
+        "back": "Back"
     },
     "settings":{
         "title":"Configuración y privacidad",
