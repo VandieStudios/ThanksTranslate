@@ -2,7 +2,7 @@
     "language":"Deutsch",
     "error":"Fehler",
     "post":{
-        "someone":"Danke jemandem",
+        "someone":"Danke jemanden",
         "why":"Warum möchtest du {{name}} danken?",
         "postThank":"Bedanken",
         "cancel":"Abbrechen"
@@ -14,10 +14,10 @@
     },
     "login":{
         "errors":{
-            "pass":"Falsches Passwort",
-            "user":"Account existiert nicht",
-            "token":"Session abgelaufen, bitte versuchen Sie es erneut",
-            "verification": "Bitte verifizieren Sie Ihren Account, bevor Sie versuchen sich einzuloggen"
+            "pass":"Falsches Passwort!",
+            "user":"Account existiert nicht!",
+            "token":"Session abgelaufen, bitte versuchen Sie es erneut!",
+            "verification": "Bitte verifizieren Sie Ihren Account, bevor Sie versuchen sich einzuloggen."
         },
         "login":"Einloggen",
         "email":"Email",
@@ -25,16 +25,16 @@
     },
     "signUp":{
         "notifications":{
-            "companySignedUp":"Ihre Firma wurde registriert. Bitte verifizieren Sie Ihre E-Mail bevor sie sich einloggen.",
-            "userSignedUp":"Sie wurden registriert. Bitte verifizieren Sie Ihre E-Mail bevor sie sich einloggen."
+            "companySignedUp":"Ihre Firma wurde registriert. Bitte verifizieren Sie Ihre E-Mail bevor Sie sich einloggen.",
+            "userSignedUp":"Sie wurden registriert. Bitte verifizieren Sie Ihre E-Mail bevor Sie sich einloggen."
         },
         "errors":{
-            "domains":"Eine Ihrer Domains ist bereits in Benutzung. Sollte dies ein Fehler sein, kontaktieren Sie bitte den Support"
-            "address":"Die Eingegebene Adresse kann nicht verifiziert werden",
-            "alreadyRegistered":"Diese E-Mail ist bereits in Benutzung"
+            "domains":"Eine Ihrer Domains ist bereits in Benutzung. Sollte dies ein Fehler sein, kontaktieren Sie bitte den Support."
+            "address":"Die Eingegebene Adresse kann nicht verifiziert werden.",
+            "alreadyRegistered":"Diese E-Mail ist bereits in Benutzung."
         },
         "org":{
-            "info": "Firmeninformationen",
+            "info": "Firmen Informationen",
             "name": "Name des Unternehmens",
             "address": "Adresse",
             "domains": "Domains der Firma (durch Kommata getrennt)"
