@@ -17,7 +17,7 @@
             "pass":"Falsches Passwort",
             "user":"Account existiert nicht",
             "token":"Session abgelaufen, bitte versuchen Sie es erneut",
-            "verification": "Please verify your account before attempting to log in"
+            "verification": "Bitte verifizieren Sie Ihren Account bevor Sie versuchen, sich einzuloggen"
         },
         "login":"Einloggen",
         "email":"Email",
@@ -25,26 +25,26 @@
     },
     "signUp":{
         "notifications":{
-            "companySignedUp":"Your company has been registered. Please verify your email before logging in.",
-            "userSignedUp":"You have been registered. Please verify your email before logging in."
+            "companySignedUp":"Ihre Firma wurde registriert. Bitte verifizieren Sie Ihre E-Mail bevor sie sich einloggen.",
+            "userSignedUp":"Sie wurden registriert. Bitte verifizieren Sie Ihre E-Mail bevor sie sich einloggen."
         },
         "errors":{
-            "domains":"One of your domains is already in use. If this is a mistake, please contact support",
-            "address":"The address you gave cannot be verified",
-            "alreadyRegistered":"This email is already in use."
+            "domains":"Eine Ihrer Domains ist bereits in Benutzung. Sollte dies ein Fehler sein, kontaktieren Sie bitte den Support"
+            "address":"Die Eingegebene Adresse kann nicht verifiziert werden",
+            "alreadyRegistered":"Diese E-Mail ist bereits in Benutzung"
         },
         "org":{
-            "info": "Company Info",
-            "name": "Legal Company Name",
-            "address": "Address",
-            "domains": "Company domains (Comma separated)"
+            "info": "Firmeninformationen",
+            "name": "Name des Unternehmens",
+            "address": "Adresse",
+            "domains": "Domains der Firma (durch Kommata getrennt)"
         },
         "user":{
-            "info": "Your Info",
-            "name": "Full Name"
+            "info": "Ihre Informationen",
+            "name": "Vollständiger Name"
         },
-        "next": "Next",
-        "back": "Back"
+        "next": "Weiter",
+        "back": "Zurück"
     },
     "settings":{
         "title":"Einstellungen & Datenschutz",
