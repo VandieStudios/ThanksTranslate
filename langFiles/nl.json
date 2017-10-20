@@ -1,103 +1,64 @@
 {
-    /* The name of the language inside itself eg. English is called "english" in english */
     "language":"Nederlands",
     "post":{
-        /* Used as a title on the new thank screen */
         "someone":"Bedank iemand",
-        /* Used as a label for the thank reason feild */
         "why":"Waarvoor wil je {{name}} bedanken?",
-        /* Used as the button to send a thank */
         "postThank":"Bedank",
-        /* Used to cancel a thank */
         "cancel":"Annuleren"
     },
     "thank":{
-        /* Displayed on each thank to indicate who as thanked who. */
         "thankedBy":"{{thanked}} was bedankt door {{thankee}}",
-        /* The name by which to refer to a single thank you message */
         "thank": "bedank",
-        /* When the message was posted. timeAgo is given (pre translated) by momentJS */
-        "posted": "Posted {{timeAgo}}"
+        "posted": "Geplaatst {{timeAgo}}"
     },
     "login":{
         "errors":{
-            /* The error to display when the given password is incorrect */
-            "pass":"Invalid Password",
-            /* The error to display when the given account does not exist */
-            "user":"Account does not exist",
-            /* The error to display when a login token has expired */
-            "token":"Login Token Expired, Please try again",
-            /* The error to display if a user has yet to verify their account */
-            "verification": "Please verify your account before attempting to log in"
+            "pass":"Verkeerde wachtwoord",
+            "user":"Account bestaat niet",
+            "token":"Login Token verlopen, probeer het opnieuw",
+            "verification": "Verificieer je account voor je probeert in te loggen"
         },
-        /* What to display on the login button */
-        "login":"Login",
-        /* The label for the email feild on login screens */
+        "login":"Inloggen",
         "email":"Email",
-        /* The label for the password feild on login screens */
-        "password":"Password"
+        "password":"Wachtwoord"
     },
     "signUp":{
         "notifications":{
-            /* notification to display upon successful company sign up */
-            "companySignedUp":"Your company has been registered. Please verify your email before logging in.",
-            /* notification to display upon successful user sign up */
-            "userSignedUp":"You have been registered. Please verify your email before logging in."
+            "companySignedUp":"Je bedrijf is geregistreerd. Verificieer je mail voor je probeert in te loggen.",
+            "userSignedUp":"Je bent geregistreerd. Verificieer je mail voor je probeert in te loggen."
         },
         "errors":{
-            /* error to display when a domain is used by another org */
-            "domains":"One of your domains is already in use. If this is a mistake, please contact support",
-            /* error to display when a physical address could not be verified */
-            "address":"The address you gave cannot be verified",
-            /* error to display when a user's emain is already used */
-            "alreadyRegistered":"This email is already in use."
+            "domains":"Een van je domeinen is al in gebruik. Als er sprake is van een fout, neem contact op met de support",
+            "address":"Het gegeven adres kan niet geverifieerd worden",
+            "alreadyRegistered":"Dit email is al in gebruik."
         },
         "org":{
-            /* title of the company info input section */
-            "info": "Company Info",
-            /* label for company nam input */
-            "name": "Legal Company Name",
-            /* label for company address input */
-            "address": "Address",
-            /* label for company domains input */
-            "domains": "Company domains (Comma separated)"
+            "info": "Info Over Bedrijf",
+            "name": "Legale Bedrijf Naam",
+            "address": "Adres",
+            "domains": "Bedrijf domeinen (Gescheiden met komma)"
         },
         "user":{
-            /* Title for the user info input section */
-            "info": "Your Info",
-            /* label for the user name feild */
-            "name": "Full Name"
+            "info": "Je info",
+            "name": "Volledige naam"
         },
-        /* go to next step button */
-        "next": "Next",
-        /* back a step button */
-        "back": "Back"
+        "next": "Volgende",
+        "back": "Terug"
     },
     "settings":{
-        /* The title of the Settings & Privacy Menu */
-        "title":"Settings & Privacy",
-        /* The label to display on the language select input */
-        "curlang": "Current Language",
-        /* Used when a setting was set by the browser. eg. "Language: English (Set by browser)" */
-        "browserSet": "Set by browser",
-        /* The label to use for user specific settings */
-        "userSettings": "User Settings",
-        /* The label to use for privacy specific settings */
+        "title":"Instellingen & Privacy",
+        "curlang": "Huidige Taal",
+        "browserSet": "Ingesteld door de browser",
+        "userSettings": "Gebruiker instellingen",
         "privacy":"Privacy",
-        /* The label to use on the toggle which stops users outside your own organisation seeing your profile */
-        "profilePrivacy": "Limit viewing of my profile to users within my own organisation.",
-        /* Used on buttons that save changes */
-        "saveChanges" : "Save Changes"
+        "profilePrivacy": "Beperk het bekijken van mijn profiel tot gebruikers van mijn eigen organisatie.",
+        "saveChanges" : "Opslaan"
     },
     "error":{
-        /* How to refer to an error*/
         "text":"Error",
-        /* Used at the top of the "report an issue" screen */
-        "report":"Report an issue",
-        /* Used to send an issue report */
-        "send":"Post report",
-        /* Used as a label on the issue description input */
-        "info":"Explain the issue"
+        "report":"Meld een probleem",
+        "send":"Vermeld probleem",
+        "info":"Beschrijf het probleem"
     }
 
 }
