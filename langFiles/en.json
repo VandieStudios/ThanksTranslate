@@ -1,6 +1,5 @@
 {
     "language":"English",
-    "error":"Error",
     "post":{
         "someone":"Thank someone",
         "why":"Why do you want to thank {{name}}?",
@@ -56,6 +55,7 @@
         "saveChanges" : "Save Changes"
     },
     "error":{
+        "text":"Error",
         "report":"Report an issue",
         "send":"Post report",
         "info":"Explain the issue"

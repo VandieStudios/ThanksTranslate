@@ -1,6 +1,5 @@
 {
     "language":"suomi",
-    "error":"Virhe",
     "post":{
         "someone":"Kiitä jotakuta",
         "why":"Miksi haluat kiittää henkilöä {{name}}?",
@@ -56,6 +55,7 @@
         "saveChanges" : "Save Changes"
     },
     "error":{
+        "text":"Virhe",
         "report":"Report an issue",
         "send":"Post report",
         "info":"Explain the issue"

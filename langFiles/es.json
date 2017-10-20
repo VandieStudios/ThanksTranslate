@@ -1,6 +1,5 @@
 {
     "language":"Spanish",
-    "error":"Error",
     "post":{
         "someone":"Agradecer a alguien",
         "why":"¿Por qué quieres dar las gracias a {{name}}?",
@@ -56,6 +55,7 @@
         "saveChanges" : "Save Changes"
     },
     "error":{
+        "text":"Error",
         "report":"Report an issue",
         "send":"Post report",
         "info":"Explain the issue"

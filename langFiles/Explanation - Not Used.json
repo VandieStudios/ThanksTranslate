@@ -1,8 +1,6 @@
 {
     /* The name of the language inside itself eg. English is called "english" in english */
     "language":"English",
-    /* How to refer to an error*/
-    "error":"Error",
     "post":{
         /* Used as a title on the new thank screen */
         "someone":"Thank someone",
@@ -92,6 +90,8 @@
         "saveChanges" : "Save Changes"
     },
     "error":{
+        /* How to refer to an error*/
+        "text":"Error",
         /* Used at the top of the "report an issue" screen */
         "report":"Report an issue",
         /* Used to send an issue report */

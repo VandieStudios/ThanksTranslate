@@ -1,6 +1,5 @@
 {
     "language":"Deutsch",
-    "error":"Fehler",
     "post":{
         "someone":"Danke jemanden",
         "why":"Warum möchtest du {{name}} danken?",
@@ -29,7 +28,7 @@
             "userSignedUp":"Sie wurden registriert. Bitte verifizieren Sie Ihre E-Mail bevor Sie sich einloggen."
         },
         "errors":{
-            "domains":"Eine Ihrer Domains ist bereits in Benutzung. Sollte dies ein Fehler sein, kontaktieren Sie bitte den Support."
+            "domains":"Eine Ihrer Domains ist bereits in Benutzung. Sollte dies ein Fehler sein, kontaktieren Sie bitte den Support.",
             "address":"Die Eingegebene Adresse kann nicht verifiziert werden.",
             "alreadyRegistered":"Diese E-Mail ist bereits in Benutzung."
         },
@@ -56,6 +55,7 @@
         "saveChanges" : "Änderungen Speichern"
     },
     "error":{
+        "text":"Fehler",
         "report":"Ein Problem melden",
         "send":"Problemmeldung senden",
         "info":"Problembeschreibung"
