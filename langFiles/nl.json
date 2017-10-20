@@ -24,19 +24,19 @@
     },
     "signUp":{
         "notifications":{
-            "companySignedUp":"Je bedrijf is geregistreerd. Verificieer je mail voor je probeert in te loggen.",
-            "userSignedUp":"Je bent geregistreerd. Verificieer je mail voor je probeert in te loggen."
+            "companySignedUp":"Je bedrijf is geregistreerd. Verificieer je email voor je probeert in te loggen.",
+            "userSignedUp":"Je bent geregistreerd. Verificieer je email voor je probeert in te loggen."
         },
         "errors":{
-            "domains":"Een van je domeinen is al in gebruik. Als er sprake is van een fout, neem contact op met de support",
+            "domains":"Een van je domeinen is al in gebruik. Als er sprake is van een fout, neem dan contact op met de support",
             "address":"Het gegeven adres kan niet geverifieerd worden",
             "alreadyRegistered":"Dit email is al in gebruik."
         },
         "org":{
-            "info": "Info Over Bedrijf",
-            "name": "Legale Bedrijf Naam",
+            "info": "Bedrijfsinformatie",
+            "name": "Bedrijfsnaam",
             "address": "Adres",
-            "domains": "Bedrijf domeinen (Gescheiden met komma)"
+            "domains": "Domeinen van bedrijf (Gescheiden met komma)"
         },
         "user":{
             "info": "Je info",
@@ -49,7 +49,7 @@
         "title":"Instellingen & Privacy",
         "curlang": "Huidige Taal",
         "browserSet": "Ingesteld door de browser",
-        "userSettings": "Gebruiker instellingen",
+        "userSettings": "Gebruikersinstellingen",
         "privacy":"Privacy",
         "profilePrivacy": "Beperk het bekijken van mijn profiel tot gebruikers van mijn eigen organisatie.",
         "saveChanges" : "Opslaan"
@@ -57,7 +57,7 @@
     "error":{
         "text":"Error",
         "report":"Meld een probleem",
-        "send":"Vermeld probleem",
+        "send":"Meld probleem",
         "info":"Beschrijf het probleem"
     }
 
