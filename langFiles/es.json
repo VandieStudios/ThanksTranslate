@@ -16,7 +16,7 @@
             "pass":"Contraseña no válida",
             "user":"La cuenta no existe",
             "token":"El token de inicio de sesión ha expirado. Por favor inténtelo de nuevo",
-            "verification": "Please verify your account before attempting to log in"
+            "verification": "Por favor verifique su cuenta antes de intentar iniciar sesión"
         },
         "login":"Login",
         "email":"Email",
@@ -24,26 +24,26 @@
     },
     "signUp":{
         "notifications":{
-            "companySignedUp":"Your company has been registered. Please verify your email before logging in.",
-            "userSignedUp":"You have been registered. Please verify your email before logging in."
+            "companySignedUp":"Su empresa ha sido registrada. Por favor verifique su correo antes de iniciar sesión.",
+            "userSignedUp":"Usted ha sido registrado. Por favor verifique su correo antes de iniciar sesión."
         },
         "errors":{
-            "domains":"One of your domains is already in use. If this is a mistake, please contact support",
-            "address":"The address you gave cannot be verified",
-            "alreadyRegistered":"This email is already in use."
+            "domains":"Uno de sus dominios ya está en uso. Si esto es un error, póngase en contacto con soporte",
+            "address":"La dirección que dio no puede ser verificada",
+            "alreadyRegistered":"Este correo electrónico ya está en uso."
         },
         "org":{
-            "info": "Company Info",
-            "name": "Legal Company Name",
-            "address": "Address",
-            "domains": "Company domains (Comma separated)"
+            "info": "Información de la empresa",
+            "name": "Nombre de la empresa legal",
+            "address": "La señas",
+            "domains": "Dominios de la empresa (Coma separada)"
         },
         "user":{
-            "info": "Your Info",
-            "name": "Full Name"
+            "info": "Su información",
+            "name": "El nombre y apellidos"
         },
-        "next": "Next",
-        "back": "Back"
+        "next": "Siguiente",
+        "back": "Anterior"
     },
     "settings":{
         "title":"Configuración y privacidad",
@@ -52,13 +52,13 @@
         "userSettings": "Configuración del usuario",
         "privacy":"Privacidad",
         "profilePrivacy": "Limitar la visualización de mi perfil a los usuarios dentro de mi propia organización.",
-        "saveChanges" : "Save Changes"
+        "saveChanges" : "Guardar cambios"
     },
     "error":{
         "text":"Error",
-        "report":"Report an issue",
-        "send":"Post report",
-        "info":"Explain the issue"
+        "report":"Informar de un problema",
+        "send":"Publicar informe",
+        "info":"Explique el problema"
     }
 
 }
