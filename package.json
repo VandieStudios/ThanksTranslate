@@ -1,6 +1,6 @@
 {
   "name": "thanks-translate",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "The module that handles translation for thanks",
   "main": "lang.js",
   "scripts": {
