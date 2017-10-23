@@ -1,10 +1,10 @@
 {
   "name": "thanks-translate",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "The module that handles translation for thanks",
   "main": "lang.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "thanks",
@@ -12,5 +12,9 @@
     "translate"
   ],
   "author": "Vandie Studios Ltd.",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "it-each": "^0.3.1",
+    "mocha": "^4.0.1"
+  }
 }

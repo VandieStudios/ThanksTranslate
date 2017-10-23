@@ -2,16 +2,22 @@ var fs = require('fs')
 
 //A list of languages that should be used in a right to left context
 var rtls = ['ar','arc','dv','far','ha','he','khw','ks','ku','ur','yi']
-//The array in which all accepted languages are put.
-var accepted = []
 
-fs.readdir('./langFiles', (err, files) => {
+//Registers all existing languages
+var accepted = (() => {
+    var accepted = []
+    let files = fs.readdirSync('./langFiles')
     files.forEach(file => {
         file = file.replace('.json','')
-        file != 'Explanation - Not Used' ? accepted.push(file) : false
+        if(file != 'Explanation - Not Used') accepted.push(file)
     })
-})
+    return accepted
+})()
 
+/**
+ * Automatically gets the language that the browser is using and gets english if that is unavailable
+ * @param {*} req - An ExpressJS Request
+ */
 var langDetails = (req) => {
     return new Promise( (resolve,reject) => {
         let lang = req.acceptsLanguages(accepted)
@@ -22,14 +28,22 @@ var langDetails = (req) => {
     })
 }
 
+/**
+ * Gets a language File
+ * @param {String} lang - The 2 char language code that you want to get
+ */
 var getLangFile = lang => {
     return new Promise( (resolve,reject) => {
         if(accepted.indexOf(lang) != -1){
             fs.readFile(__dirname+'/langFiles/'+lang+'.json', function(err, data){
                 err ? reject(err) : resolve(JSON.parse(data))
             })
-        }else reject('Invalid Language Requested')
+        }else reject(new Error('Invalid Language Requested ('+lang+')'))
     })
 }
 
-module.exports = langDetails
+module.exports = {
+    auto: langDetails,
+    get: getLangFile,
+    languages: accepted
+}
