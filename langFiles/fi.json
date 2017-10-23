@@ -16,7 +16,7 @@
             "pass":"Väärä salasana",
             "user":"Tiliä ei ole olemassa",
             "token":"Kirjautumislomake vanhentunut, yritä uudelleen",
-            "verification": "Please verify your account before attempting to log in"
+            "verification": "Vahvista tilisi ennen sisäänkirjautumista"
         },
         "login":"Kirjaudu",
         "email":"Sähköposti",
@@ -24,26 +24,26 @@
     },
     "signUp":{
         "notifications":{
-            "companySignedUp":"Your company has been registered. Please verify your email before logging in.",
-            "userSignedUp":"You have been registered. Please verify your email before logging in."
+            "companySignedUp":"Yrityksesi on rekisteröity. Vahvista sähköpostiosoitteesi ennen sisäänkirjautumista.",
+            "userSignedUp":"Sinut on rekisteröity. Vahvista sähköpostiosoitteesi ennen sisäänkirjautumista."
         },
         "errors":{
-            "domains":"One of your domains is already in use. If this is a mistake, please contact support",
-            "address":"The address you gave cannot be verified",
-            "alreadyRegistered":"This email is already in use."
+            "domains":"Yksi verkkotunnuksistasi on jo käytössä. Otathan yhteyttä tukeen jos tässä on virhe.",
+            "address":"Antamaasi osoitetta ei voida vahvistaa",
+            "alreadyRegistered":"Tämä sähköpostiosoite on jo käytössä."
         },
         "org":{
-            "info": "Company Info",
-            "name": "Legal Company Name",
-            "address": "Address",
-            "domains": "Company domains (Comma separated)"
+            "info": "Yrityksen tiedot",
+            "name": "Yrityksen laillinen nimi",
+            "address": "Osoite",
+            "domains": "Yrityksen verkkotunnukset (erotettu pilkulla)"
         },
         "user":{
-            "info": "Your Info",
-            "name": "Full Name"
+            "info": "Tietosi",
+            "name": "Koko nimi"
         },
-        "next": "Next",
-        "back": "Back"
+        "next": "Seuraava",
+        "back": "Edellinen"
     },
     "settings":{
         "title":"Asetukset & Yksityisyys",
@@ -52,13 +52,13 @@
         "userSettings": "Käyttäjän Asetukset",
         "privacy":"Yksityisyys",
         "profilePrivacy": "Anna vain organisaationi sisäisille käyttäjlle oikeus tarkastella profiiliani.",
-        "saveChanges" : "Save Changes"
+        "saveChanges" : "Tallenna muutokset"
     },
     "error":{
         "text":"Virhe",
-        "report":"Report an issue",
-        "send":"Post report",
-        "info":"Explain the issue"
+        "report":"Ilmoita ongelmasta",
+        "send":"Lähetä ilmoitus",
+        "info":"Kerro ongelmasta"
     }
 
 }
