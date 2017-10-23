@@ -7,7 +7,7 @@ var rtls = ['ar','arc','dv','far','ha','he','khw','ks','ku','ur','yi']
 //Registers all existing languages
 var accepted = (() => {
     var accepted = []
-    let files = fs.readdirSync(path.parse(__dirname+'/langFiles'))
+    let files = fs.readdirSync(__dirname+'/langFiles')
     files.forEach(file => {
         file = file.replace('.json','')
         if(file != 'Explanation - Not Used') accepted.push(file)
