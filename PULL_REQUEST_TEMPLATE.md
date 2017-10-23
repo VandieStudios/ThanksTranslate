@@ -6,7 +6,7 @@ Thanks for creating a pull request for the thanks translation system. In order t
 
 | Question | Response |
 | ------------- | ------------- |
-| What is the affected language? | (What language are you editing using the 2 letter lang code eg. GB,FI or DE) |
-| What are the changes? | (What are you changing in this language file, if you are adding a new language simply set as "Added the language") |
-| Reason for changes? | (What is the reason for your proposed changes. If you are adding a new language, leave blank) |
-| Fixed Issues? | #(issue number here or delete this line) |
+| What is the affected language? | What language are you editing using the 2 letter lang code eg. GB,FI or DE |
+| What are the changes? | What are you changing in this language file, if you are adding a new language simply set as "Added the language" |
+| Reason for changes? | What is the reason for your proposed changes. If you are adding a new language, leave blank |
+| Fixed Issues? | #issue number here or delete this line |
