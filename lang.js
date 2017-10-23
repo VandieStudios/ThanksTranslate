@@ -1,9 +1,19 @@
 var fs = require('fs')
 
+//A list of languages that should be used in a right to left context
+var rtls = ['ar','arc','dv','far','ha','he','khw','ks','ku','ur','yi']
+//The array in which all accepted languages are put.
+var accepted = []
+
+fs.readdir('./langFiles', (err, files) => {
+    files.forEach(file => {
+        file = file.replace('.json','')
+        file != 'Explanation - Not Used' ? accepted.push(file) : false
+    })
+})
+
 var langDetails = (req) => {
     return new Promise( (resolve,reject) => {
-        let rtls = ['ar','arc','dv','far','ha','he','khw','ks','ku','ur','yi']
-        let accepted = ['en','nl','de','es','fi']
         let lang = req.acceptsLanguages(accepted)
         lang = lang != undefined ? lang : 'en'
         let dir = rtls.includes(lang) ? 'rtl' : 'ltr'
@@ -14,9 +24,11 @@ var langDetails = (req) => {
 
 var getLangFile = lang => {
     return new Promise( (resolve,reject) => {
-        fs.readFile(__dirname+'/langFiles/'+lang+'.json', function(err, data){
-            err ? reject(err) : resolve(JSON.parse(data))
-        })
+        if(accepted.indexOf(lang) != -1){
+            fs.readFile(__dirname+'/langFiles/'+lang+'.json', function(err, data){
+                err ? reject(err) : resolve(JSON.parse(data))
+            })
+        }else reject('Invalid Language Requested')
     })
 }
 
