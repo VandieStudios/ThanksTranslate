@@ -3,7 +3,7 @@ var fs = require('fs')
 var langDetails = (req) => {
     return new Promise( (resolve,reject) => {
         let rtls = ['ar','arc','dv','far','ha','he','khw','ks','ku','ur','yi']
-        let accepted = ['en','de', 'es','fi']
+        let accepted = ['en','nl','de','es','fi']
         let lang = req.acceptsLanguages(accepted)
         lang = lang != undefined ? lang : 'en'
         let dir = rtls.includes(lang) ? 'rtl' : 'ltr'
