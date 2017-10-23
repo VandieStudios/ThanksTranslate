@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/VandieStudios/ThanksTranslate.svg?branch=master)](https://travis-ci.org/VandieStudios/ThanksTranslate)
+
 # Thanks Translate
 Vandie Studios Ltd makes use of this library to translate Thanks™ to a range of languages. We decided it would makes more sense to open source it and allow our users to help ensure that the system made sense in their language also. For that reason, we offer Thanks Translate.
 
