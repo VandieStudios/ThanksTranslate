@@ -29,18 +29,28 @@ var checkAgainstEnglish = (curLang) => {
         lang.get('en')
         .then(en => {
             let valid = true
+            let missing = []
             for(ka in en){
-                if(curLang[ka] == undefined) valid = false
+                if(curLang[ka] == undefined) {
+                    valid = false
+                    missing.push(ka)
+                }
                 if(typeof en[ka] === 'object')
                 for(kb in en[ka]){
-                    if(curLang[ka][kb] == undefined) valid = false
+                    if(curLang[ka][kb] == undefined){
+                        valid = false
+                        missing.push(ka+'.'+kb)
+                    }
                     if(typeof en[ka][kb] === 'object')
                     for(kc in en[ka][kb]){
-                        if(curLang[ka][kb][kc] == undefined) valid = false
+                        if(curLang[ka][kb][kc] == undefined){
+                            valid = false
+                            missing.push(ka+'.'+kb+'.'+kc)
+                        }
                     }
                 }
             }
-            valid ? resolve() : reject(new Error('Language file is not up to date with english'))
+            valid ? resolve() : reject(new Error('The following variables are missing from the "'+curLang.language+'" language file: '+missing.join(', ')))
         })
     })
 }
