@@ -1,5 +1,6 @@
 {
     "language":"Nederlands",
+    "language-short":"nl",
     "post":{
         "someone":"Bedank iemand",
         "why":"Waarvoor wil je {{name}} bedanken?",

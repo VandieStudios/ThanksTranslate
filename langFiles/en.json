@@ -1,5 +1,6 @@
 {
     "language":"English",
+    "language-short":"en",
     "post":{
         "someone":"Thank someone",
         "why":"Why do you want to thank {{name}}?",

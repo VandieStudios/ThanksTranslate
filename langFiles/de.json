@@ -1,5 +1,6 @@
 {
     "language":"Deutsch",
+    "language-short":"de",
     "post":{
         "someone":"Danke jemanden",
         "why":"Warum möchtest du {{name}} danken?",
