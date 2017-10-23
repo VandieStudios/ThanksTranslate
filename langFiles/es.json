@@ -1,5 +1,6 @@
 {
     "language":"Spanish",
+    "language-short":"es",
     "post":{
         "someone":"Agradecer a alguien",
         "why":"¿Por qué quieres dar las gracias a {{name}}?",

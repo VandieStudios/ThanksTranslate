@@ -1,5 +1,6 @@
 {
     "language":"suomi",
+    "language-short":"fi",
     "post":{
         "someone":"Kiitä jotakuta",
         "why":"Miksi haluat kiittää henkilöä {{name}}?",

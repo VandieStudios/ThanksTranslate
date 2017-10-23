@@ -1,6 +1,8 @@
 {
     /* The name of the language inside itself eg. English is called "english" in english */
     "language":"English",
+    /* A shorthand version of the language name, should be the same as the file name */
+    "language-short":"en",
     "post":{
         /* Used as a title on the new thank screen */
         "someone":"Thank someone",
