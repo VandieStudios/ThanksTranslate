@@ -1,6 +1,8 @@
 ## Contribution
 Before making any pull requests please ensure ~~you have added your language code to the `lang.js` file and~~ (This is no longer required as we have automated language registration) your language file fits the form shown in `en.json`. Please also keep in mind the following.
 
+Any changes will be put through automated unit tests to ensure that everything is running smoothly.
+
 ## Translator Considerations
 
 ### Structure
