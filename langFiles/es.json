@@ -12,13 +12,38 @@
         "posted": "Publicado en {{timeAgo}}"
     },
     "login":{
-        "error":"Error",
-        "passError":"Contraseña no válida",
-        "userError":"La cuenta no existe",
-        "tokenError":"El token de inicio de sesión ha expirado. Por favor inténtelo de nuevo",
+        "errors":{
+            "pass":"Contraseña no válida",
+            "user":"La cuenta no existe",
+            "token":"El token de inicio de sesión ha expirado. Por favor inténtelo de nuevo",
+            "verification": "Por favor verifique su cuenta antes de intentar iniciar sesión"
+        },
         "login":"Login",
         "email":"Email",
         "password":"Contraseña"
+    },
+    "signUp":{
+        "notifications":{
+            "companySignedUp":"Su empresa ha sido registrada. Por favor verifique su correo antes de iniciar sesión.",
+            "userSignedUp":"Usted ha sido registrado. Por favor verifique su correo antes de iniciar sesión."
+        },
+        "errors":{
+            "domains":"Uno de sus dominios ya está en uso. Si esto es un error, póngase en contacto con soporte",
+            "address":"La dirección que dio no puede ser verificada",
+            "alreadyRegistered":"Este correo electrónico ya está en uso."
+        },
+        "org":{
+            "info": "Información de la empresa",
+            "name": "Nombre de la empresa legal",
+            "address": "La señas",
+            "domains": "Dominios de la empresa (Coma separada)"
+        },
+        "user":{
+            "info": "Su información",
+            "name": "El nombre y apellidos"
+        },
+        "next": "Siguiente",
+        "back": "Anterior"
     },
     "settings":{
         "title":"Configuración y privacidad",
@@ -26,7 +51,14 @@
         "browserSet": "Establecer por navegador",
         "userSettings": "Configuración del usuario",
         "privacy":"Privacidad",
-        "profilePrivacy": "Limitar la visualización de mi perfil a los usuarios dentro de mi propia organización."
+        "profilePrivacy": "Limitar la visualización de mi perfil a los usuarios dentro de mi propia organización.",
+        "saveChanges" : "Guardar cambios"
+    },
+    "error":{
+        "text":"Error",
+        "report":"Informar de un problema",
+        "send":"Publicar informe",
+        "info":"Explique el problema"
     }
 
 }

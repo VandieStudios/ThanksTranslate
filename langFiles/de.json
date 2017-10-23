@@ -1,7 +1,7 @@
 {
     "language":"Deutsch",
     "post":{
-        "someone":"Danke jemandem",
+        "someone":"Danke jemanden",
         "why":"Warum möchtest du {{name}} danken?",
         "postThank":"Bedanken",
         "cancel":"Abbrechen"
@@ -12,13 +12,38 @@
         "posted": "{{timeAgo}} gesendet"
     },
     "login":{
-        "error":"Fehler",
-        "passError":"Falsches Passwort",
-        "userError":"Account existiert nicht",
-        "tokenError":"Session abgelaufen, bitte versuchen Sie es erneut",
+        "errors":{
+            "pass":"Falsches Passwort!",
+            "user":"Account existiert nicht!",
+            "token":"Session abgelaufen, bitte versuchen Sie es erneut!",
+            "verification": "Bitte verifizieren Sie Ihren Account, bevor Sie versuchen sich einzuloggen."
+        },
         "login":"Einloggen",
         "email":"Email",
         "password":"Passwort"
+    },
+    "signUp":{
+        "notifications":{
+            "companySignedUp":"Ihre Firma wurde registriert. Bitte verifizieren Sie Ihre E-Mail bevor Sie sich einloggen.",
+            "userSignedUp":"Sie wurden registriert. Bitte verifizieren Sie Ihre E-Mail bevor Sie sich einloggen."
+        },
+        "errors":{
+            "domains":"Eine Ihrer Domains ist bereits in Benutzung. Sollte dies ein Fehler sein, kontaktieren Sie bitte den Support.",
+            "address":"Die Eingegebene Adresse kann nicht verifiziert werden.",
+            "alreadyRegistered":"Diese E-Mail ist bereits in Benutzung."
+        },
+        "org":{
+            "info": "Firmen Informationen",
+            "name": "Name des Unternehmens",
+            "address": "Adresse",
+            "domains": "Domains der Firma (durch Kommata getrennt)"
+        },
+        "user":{
+            "info": "Ihre Informationen",
+            "name": "Vollständiger Name"
+        },
+        "next": "Weiter",
+        "back": "Zurück"
     },
     "settings":{
         "title":"Einstellungen & Datenschutz",
@@ -26,6 +51,13 @@
         "browserSet": "Durch Browser gesetzt",
         "userSettings": "Nutzereinstellungen",
         "privacy":"Datenschutz",
-        "profilePrivacy": "Ansehen meines Profils nur Nutzern meiner Organisation erlauben."
+        "profilePrivacy": "Ansehen meines Profils nur Nutzern meiner Organisation erlauben.",
+        "saveChanges" : "Änderungen Speichern"
+    },
+    "error":{
+        "text":"Fehler",
+        "report":"Ein Problem melden",
+        "send":"Problemmeldung senden",
+        "info":"Problembeschreibung"
     }
 }

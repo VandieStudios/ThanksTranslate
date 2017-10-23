@@ -12,13 +12,38 @@
         "posted": "Posted {{timeAgo}}"
     },
     "login":{
-        "error":"Error",
-        "passError":"Invalid Password",
-        "userError":"Account does not exist",
-        "tokenError":"Login Token Expired, Please try again",
+        "errors":{
+            "pass":"Invalid Password",
+            "user":"Account does not exist",
+            "token":"Login Token Expired, Please try again",
+            "verification": "Please verify your account before attempting to log in"
+        },
         "login":"Login",
         "email":"Email",
         "password":"Password"
+    },
+    "signUp":{
+        "notifications":{
+            "companySignedUp":"Your company has been registered. Please verify your email before logging in.",
+            "userSignedUp":"You have been registered. Please verify your email before logging in."
+        },
+        "errors":{
+            "domains":"One of your domains is already in use. If this is a mistake, please contact support",
+            "address":"The address you gave cannot be verified",
+            "alreadyRegistered":"This email is already in use."
+        },
+        "org":{
+            "info": "Company Info",
+            "name": "Legal Company Name",
+            "address": "Address",
+            "domains": "Company domains (Comma separated)"
+        },
+        "user":{
+            "info": "Your Info",
+            "name": "Full Name"
+        },
+        "next": "Next",
+        "back": "Back"
     },
     "settings":{
         "title":"Settings & Privacy",
@@ -26,7 +51,14 @@
         "browserSet": "Set by browser",
         "userSettings": "User Settings",
         "privacy":"Privacy",
-        "profilePrivacy": "Limit viewing of my profile to users within my own organisation."
+        "profilePrivacy": "Limit viewing of my profile to users within my own organisation.",
+        "saveChanges" : "Save Changes"
+    },
+    "error":{
+        "text":"Error",
+        "report":"Report an issue",
+        "send":"Post report",
+        "info":"Explain the issue"
     }
 
 }

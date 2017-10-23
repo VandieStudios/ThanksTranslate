@@ -12,13 +12,38 @@
         "posted": "Lähetetty {{timeAgo}}"
     },
     "login":{
-        "error":"Virhe",
-        "passError":"Väärä salasana",
-        "userError":"Tiliä ei ole olemassa",
-        "tokenError":"Kirjautumislomake vanhentunut, yritä uudelleen",
+        "errors": {
+            "pass":"Väärä salasana",
+            "user":"Tiliä ei ole olemassa",
+            "token":"Kirjautumislomake vanhentunut, yritä uudelleen",
+            "verification": "Please verify your account before attempting to log in"
+        },
         "login":"Kirjaudu",
         "email":"Sähköposti",
         "password":"Salasana"
+    },
+    "signUp":{
+        "notifications":{
+            "companySignedUp":"Your company has been registered. Please verify your email before logging in.",
+            "userSignedUp":"You have been registered. Please verify your email before logging in."
+        },
+        "errors":{
+            "domains":"One of your domains is already in use. If this is a mistake, please contact support",
+            "address":"The address you gave cannot be verified",
+            "alreadyRegistered":"This email is already in use."
+        },
+        "org":{
+            "info": "Company Info",
+            "name": "Legal Company Name",
+            "address": "Address",
+            "domains": "Company domains (Comma separated)"
+        },
+        "user":{
+            "info": "Your Info",
+            "name": "Full Name"
+        },
+        "next": "Next",
+        "back": "Back"
     },
     "settings":{
         "title":"Asetukset & Yksityisyys",
@@ -26,7 +51,14 @@
         "browserSet": "Selaimen määrittämä",
         "userSettings": "Käyttäjän Asetukset",
         "privacy":"Yksityisyys",
-        "profilePrivacy": "Anna vain organisaationi sisäisille käyttäjlle oikeus tarkastella profiiliani."
+        "profilePrivacy": "Anna vain organisaationi sisäisille käyttäjlle oikeus tarkastella profiiliani.",
+        "saveChanges" : "Save Changes"
+    },
+    "error":{
+        "text":"Virhe",
+        "report":"Report an issue",
+        "send":"Post report",
+        "info":"Explain the issue"
     }
 
 }

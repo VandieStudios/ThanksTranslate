@@ -1,0 +1,64 @@
+{
+    "language":"Nederlands",
+    "post":{
+        "someone":"Bedank iemand",
+        "why":"Waarvoor wil je {{name}} bedanken?",
+        "postThank":"Bedank",
+        "cancel":"Annuleren"
+    },
+    "thank":{
+        "thankedBy":"{{thanked}} was bedankt door {{thankee}}",
+        "thank": "bedank",
+        "posted": "Geplaatst {{timeAgo}}"
+    },
+    "login":{
+        "errors":{
+            "pass":"Verkeerde wachtwoord",
+            "user":"Account bestaat niet",
+            "token":"Login Token verlopen, probeer het opnieuw",
+            "verification": "Verificieer je account voor je probeert in te loggen"
+        },
+        "login":"Inloggen",
+        "email":"Email",
+        "password":"Wachtwoord"
+    },
+    "signUp":{
+        "notifications":{
+            "companySignedUp":"Je bedrijf is geregistreerd. Verificieer je email voor je probeert in te loggen.",
+            "userSignedUp":"Je bent geregistreerd. Verificieer je email voor je probeert in te loggen."
+        },
+        "errors":{
+            "domains":"Een van je domeinen is al in gebruik. Als er sprake is van een fout, neem dan contact op met de support",
+            "address":"Het gegeven adres kan niet geverifieerd worden",
+            "alreadyRegistered":"Dit email is al in gebruik."
+        },
+        "org":{
+            "info": "Bedrijfsinformatie",
+            "name": "Bedrijfsnaam",
+            "address": "Adres",
+            "domains": "Domeinen van bedrijf (Gescheiden met komma)"
+        },
+        "user":{
+            "info": "Je info",
+            "name": "Volledige naam"
+        },
+        "next": "Volgende",
+        "back": "Terug"
+    },
+    "settings":{
+        "title":"Instellingen & Privacy",
+        "curlang": "Huidige Taal",
+        "browserSet": "Ingesteld door de browser",
+        "userSettings": "Gebruikersinstellingen",
+        "privacy":"Privacy",
+        "profilePrivacy": "Beperk het bekijken van mijn profiel tot gebruikers van mijn eigen organisatie.",
+        "saveChanges" : "Opslaan"
+    },
+    "error":{
+        "text":"Error",
+        "report":"Meld een probleem",
+        "send":"Meld probleem",
+        "info":"Beschrijf het probleem"
+    }
+
+}
