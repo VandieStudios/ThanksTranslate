@@ -1,4 +1,4 @@
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php) [![Build Status](https://travis-ci.org/VandieStudios/ThanksTranslate.svg?branch=master)](https://travis-ci.org/VandieStudios/ThanksTranslate)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://travis-ci.org/VandieStudios/ThanksTranslate.svg?branch=master)](https://travis-ci.org/VandieStudios/ThanksTranslate)
 
 # Thanks Translate
 Vandie Studios Ltd makes use of this library to translate [Thanks™](https://gothank.me) to a range of languages. We open sourced it as we are only a small company and as such we hoped our community would help to ensure that their own language was supported. We beleive that this not only helps us, but you as well.
