@@ -44,6 +44,7 @@
             "name": "El nombre y apellidos"
         },
         "next": "Siguiente",
+        "signUp": "Sign Up",
         "back": "Anterior"
     },
     "settings":{
