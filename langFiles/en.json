@@ -44,6 +44,7 @@
             "name": "Full Name"
         },
         "next": "Next",
+        "signUp": "Sign Up",
         "back": "Back"
     },
     "settings":{

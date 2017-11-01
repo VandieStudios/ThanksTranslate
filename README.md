@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.org/VandieStudios/ThanksTranslate.svg?branch=master)](https://travis-ci.org/VandieStudios/ThanksTranslate)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php) [![Build Status](https://travis-ci.org/VandieStudios/ThanksTranslate.svg?branch=master)](https://travis-ci.org/VandieStudios/ThanksTranslate)
 
 # Thanks Translate
-Vandie Studios Ltd makes use of this library to translate Thanks™ to a range of languages. We decided it would makes more sense to open source it and allow our users to help ensure that the system made sense in their language also. For that reason, we offer Thanks Translate.
+Vandie Studios Ltd makes use of this library to translate [Thanks™](https://gothank.me) to a range of languages. We open sourced it as we are only a small company and as such we hoped our community would help to ensure that their own language was supported. We beleive that this not only helps us, but you as well.
 
 ## Contribution
 Before making any pull requests please ensure ~~you have added your language code to the `lang.js` file and~~ (This is no longer required as we have automated language registration) your language file fits the form shown in `en.json`. Please also keep in mind the following.
