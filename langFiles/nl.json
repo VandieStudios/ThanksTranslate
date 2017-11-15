@@ -54,7 +54,12 @@
         "userSettings": "Gebruikersinstellingen",
         "privacy":"Privacy",
         "profilePrivacy": "Beperk het bekijken van mijn profiel tot gebruikers van mijn eigen organisatie.",
-        "saveChanges" : "Opslaan"
+        "saveChanges" : "Opslaan",
+        "toggleDark" : "Toggle dark theme"
+    },
+    "profile":{
+        "profile": "Profile",
+        "usersProfile":"{{user}}'s profile"
     },
     "error":{
         "text":"Error",

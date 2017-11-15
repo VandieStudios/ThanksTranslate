@@ -54,7 +54,12 @@
         "userSettings": "Configuración del usuario",
         "privacy":"Privacidad",
         "profilePrivacy": "Limitar la visualización de mi perfil a los usuarios dentro de mi propia organización.",
-        "saveChanges" : "Guardar cambios"
+        "saveChanges" : "Guardar cambios",
+        "toggleDark" : "Toggle dark theme"
+    },
+    "profile":{
+        "profile": "Profile",
+        "usersProfile":"{{user}}'s profile"
     },
     "error":{
         "text":"Error",

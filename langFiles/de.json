@@ -54,7 +54,12 @@
         "userSettings": "Nutzereinstellungen",
         "privacy":"Datenschutz",
         "profilePrivacy": "Ansehen meines Profils nur Nutzern meiner Organisation erlauben.",
-        "saveChanges" : "Änderungen Speichern"
+        "saveChanges" : "Änderungen Speichern",
+        "toggleDark" : "Toggle dark theme"
+    },
+    "profile":{
+        "profile": "Profile",
+        "usersProfile":"{{user}}'s profile"
     },
     "error":{
         "text":"Fehler",

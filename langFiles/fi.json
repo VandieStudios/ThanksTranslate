@@ -54,7 +54,12 @@
         "userSettings": "Käyttäjän Asetukset",
         "privacy":"Yksityisyys",
         "profilePrivacy": "Anna vain organisaationi sisäisille käyttäjlle oikeus tarkastella profiiliani.",
-        "saveChanges" : "Tallenna muutokset"
+        "saveChanges" : "Tallenna muutokset",
+        "toggleDark" : "Toggle dark theme"
+    },
+    "profile":{
+        "profile": "Profile",
+        "usersProfile":"{{user}}'s profile"
     },
     "error":{
         "text":"Virhe",

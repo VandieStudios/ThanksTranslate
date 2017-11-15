@@ -91,7 +91,15 @@
         /* The label to use on the toggle which stops users outside your own organisation seeing your profile */
         "profilePrivacy": "Limit viewing of my profile to users within my own organisation.",
         /* Used on buttons that save changes */
-        "saveChanges" : "Save Changes"
+        "saveChanges" : "Save Changes",
+        /* Toggles the dark theme */
+        "toggleDark" : "Toggle dark theme"
+    },
+    "profile":{
+        /* used on a button that links to the user's profile */
+        "profile": "Profile",
+        /* title of a profile page */
+        "usersProfile":"{{user}}'s profile"
     },
     "error":{
         /* How to refer to an error*/
